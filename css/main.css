@@ -1,24 +1,5 @@
-div#coverText {
-	color: white;
-	font-family: 'Open Sans', sans-serif;
-	position: relative;
-	font-size: 90px;
-}
-
 img#coverPhoto {
 	max-width: 100%;
-}
-
-div#secondaryText {
-	color: white;
-	font-family: 'Open Sans', sans-serif;
-	position: relative;
-	font-size: 30px;
-	left: 6px;
-}
-
-div#centerHeader {
-	position: absolute;
 }
 
 h1 {
@@ -43,4 +24,12 @@ i {
 a i:hover {
 	color: black;
  	opacity: .5;
+}
+
+div.content {
+	position: relative;
+}
+
+div.spacer {
+	height: 25px;
 }
