@@ -1,14 +1,46 @@
-.container-fluid {
+div#coverText {
 	color: white;
-	
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	font-size: 90px;
 }
 
-.header-footer {
-	height: 100px;
-	background-color: blue;
+img#coverPhoto {
+	max-width: 100%;
 }
 
-.content {
-	color: blue;
-	height: 300px;
+div#secondaryText {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	font-size: 30px;
+	left: 6px;
+}
+
+div#centerHeader {
+	position: absolute;
+}
+
+h1 {
+	font-size: 60px
+}
+
+.coverPhoto {
+	background-image: url(../images/color_cover.png);
+}
+
+.whiteOut {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+i {
+	margin: 4px;
+	color: white;
+}
+
+a i:hover {
+	color: black;
+ 	opacity: .5;
 }
