@@ -1,5 +1,5 @@
 img#coverPhoto {
-	max-width: 100%;
+	width: 100%;
 }
 
 h1 {
@@ -7,13 +7,14 @@ h1 {
 }
 
 .coverPhoto {
-	background-image: url(../images/color_cover.png);
+	background: url(../images/color_cover.png) no-repeat center center scroll;
 }
 
 .whiteOut {
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
+	position: relative;
 }
 
 i {
@@ -30,6 +31,16 @@ div.content {
 	position: relative;
 }
 
-div.spacer {
-	height: 25px;
+div.content h3.icons {
+	padding-bottom: 20px;
+}
+
+div.yellow {
+	background-color: #D7CCC8;
+	color: #5D4037;
+}
+
+div.blue {
+	background-color: #D7CCC8;
+	opacity: .5;
 }
